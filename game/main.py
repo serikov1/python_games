@@ -160,7 +160,7 @@ while True:
             lines += 1
 
     score_result += lines
-    set_record(record, score_result)
+    # set_record(record, score_result)
     record = get_record()
     sc.blit(score_font.render(str(score_result), True, (200, 50, 125)), (440, 300))
     sc.blit(score_font.render(record, True, pygame.Color('gold')), (440, 350))
